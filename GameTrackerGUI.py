@@ -78,6 +78,7 @@ class game:
         self.button = addNewGameGUI.makeButton("get", 120, 40,self.getEntry)
 
     def getEntry(self):
+        # Need help with this - currently cant return the value as i have nowhere to store it
         entry = self.entry.get()
         if entry == "":
             return "No input"
